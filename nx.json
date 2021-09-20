@@ -27,6 +27,16 @@
     ]
   },
   "projects": {
+    "data-store": {
+      "tags": []
+    },
+    "mfe1": {
+      "tags": []
+    },
+    "mfe1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["mfe1"]
+    },
     "shell": {
       "tags": []
     },
