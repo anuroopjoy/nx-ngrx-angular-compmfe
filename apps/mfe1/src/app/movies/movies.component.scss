@@ -1,0 +1,15 @@
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 250px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
